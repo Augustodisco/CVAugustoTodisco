@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 *{
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+   font-family: "PT Sans";
 }
 
 header{
@@ -69,9 +72,29 @@ nav ul li{
 
 }
 
+.imagenmia{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quiensoy{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
 footer{
     background-color: grey;
-    justify-content: center;
     padding-top: 35px;
     padding-bottom: 35px;
+    position:sticky;
+    top: 0;
+    bottom: 0;
+}
+
+.imagenmia{
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
 }
